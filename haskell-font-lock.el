@@ -90,7 +90,7 @@ be disabled at that position."
   ;; `as', `hiding', and `qualified' are part of the import
   ;; spec syntax, but they are not reserved.
   ;; `_' can go in here since it has temporary word syntax.
-  '("case" "class" "data" "default" "deriving" "do"
+  '("case" "cocase" "class" "data" "codata" "default" "deriving" "do"
     "else" "if" "import" "in" "infix" "infixl"
     "infixr" "instance" "let" "module" "mdo" "newtype" "of"
     "rec" "pattern" "proc" "then" "type" "where" "_")
